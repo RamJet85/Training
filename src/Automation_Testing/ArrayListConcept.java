@@ -10,7 +10,7 @@ public class ArrayListConcept {
 		//physical capacity increase then virtual capacity decreased if u enter 2 pc's and now vc is 8 
 		//if u want restrict ur data u can use generics
 
-		ArrayList list = new ArrayList();
+		ArrayList<Object> list = new ArrayList<Object>();
 		list.add("Ram");
 		list.add(100);
 		list.add(100);
