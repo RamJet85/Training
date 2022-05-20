@@ -10,7 +10,9 @@ public class EncapsulationTest {
 		System.out.println(cap.bankName);
 		System.out.println(cap.branch);
 		System.out.println(cap.getBalance());
-		cap.getempDada();
+		cap.getempData();
+		cap.setBalance(6000);
+		System.out.println(cap.getBalance());
 	}
 
 }

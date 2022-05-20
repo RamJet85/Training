@@ -5,8 +5,8 @@ public class Object_Array {
 	public static void main(String[] args) {
 
 		
-		// i want to store the car details, size is fixed here
-		//Object array is a class, using this we can store different data type of values
+		//i want to store the car details, size is fixed here
+		//Object array is a class, using this we can store different types of data
 		
 		Object obj[] = new Object[6];
 		obj[0] ="Hyundai i20";
@@ -20,6 +20,12 @@ public class Object_Array {
 		
 		for(int i=0;i<len;i++) {
 			System.out.println("The total car details is: "+obj[i]);
+		}
+		
+		for (Object ele : obj) {
+			
+			System.out.println(ele);
+			
 		}
 		
 	}

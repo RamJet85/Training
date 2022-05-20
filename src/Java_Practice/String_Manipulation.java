@@ -4,7 +4,7 @@ public class String_Manipulation {
 
 	public static void main(String[] args) {
 		
-		//String Manipulation manipulating the string into different types
+		//String Manipulation: manipulating the string into different types
 		
 		String name = "Hello this my String class in java";
 		
@@ -24,14 +24,20 @@ public class String_Manipulation {
 		System.out.println(name.indexOf("Ram"));
 		
 		String s8 = "Your transaction id is 12345";
-		System.out.println(s8.substring(5, 10));
+		System.out.println(s8.length());
+		System.out.println(s8.substring(5,10));
 		System.out.println(s8.substring(5));
+		System.out.println(s8.substring(0,28));
 		//System.out.println(s8.substring(s8.indexOf(5)));
 		
 		//Split
 		System.out.println("***** Split *****");
 		String lang = "Ram-Charan-Dhruva-Rstm";
-		System.out.println(lang.split("-")[3]);
+		String[] split = lang.split("-");
+		for (String s : split) {
+			System.out.println(s);
+		}
+		
 		
 		
 		//System.out.println(name.charAt(37));
@@ -66,6 +72,7 @@ public class String_Manipulation {
 		
 		//Trim is used to remove only the before & after spaces for a string
 		
+		System.out.println("**** trim ****");
 		String s5 = "     Hello World   ";
 		System.out.println(s5.trim());
 		
@@ -85,7 +92,11 @@ public class String_Manipulation {
 			System.out.println("Username not matched");
 		}
 		
-		//Sub String
+		//Replace
+		
+		String replace = "Charan";
+		System.out.println(replace.replace("Charan", "Ram"));
+		
 		
 		
 		

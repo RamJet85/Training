@@ -4,9 +4,11 @@ public class String_Concepts {
 
 	public static void main(String[] args) {
 		
-		//String is used to store the collection of multiple characters, it could be special chars no's chars values which is surrounded by double quotes
+		//String is used to store the collection of multiple characters
+		//it could be special chars no's chars values which is surrounded by double quotes
 		//String will maintain one array internally
 		//Collection of multiple chars 
+		
 		String s ="Ram";
 		String s1 ="krishna";
 		String s2 = s+s1;
@@ -30,9 +32,9 @@ public class String_Concepts {
 		String browser = "chrome";
 		double version = 12.33;
 		
-		System.out.println("The browser name is: "+browser + " and version is: "+ version);
+		System.out.println("The browser name is: "+browser+" and version is: "+ version);
 		
-		System.out.println("First name is: "+ s +" Last name is: "+s1);
+		System.out.println("First name is: "+s+" Last name is: "+s1);
 		
 		
 

@@ -4,6 +4,8 @@ public class Loops_for_while {
 
 	public static void main(String[] args) {
 		
+		//When you know exactly how many times you want to loop through a block of code, 
+		//use the for loop instead of a while loop:
 		//Loops are used to execute a set of instructions or functions repeatedly when some conditions become true
 		// For, While, Do while loops we have 
 		//Loops are used when we have a set of multiple data like arrays or collections

@@ -4,9 +4,9 @@ public class Conditional_Statements {
 
 	public static void main(String[] args) {
 		
-		  //conditional statements are used for which statement will be executed next
-		  //To compare the variables
-		  // Conditional statements are used to decide the flow of execution based on different conditions. 
+		//conditional statements are used for which statement will be executed next
+		//To compare the variables
+		//Conditional statements are used to decide the flow of execution based on different conditions. 
 		//If a condition is true, you can perform one action and if the condition is false, you can perform another action.
 
 		int a = 100;

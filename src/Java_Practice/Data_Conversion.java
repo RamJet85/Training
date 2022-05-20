@@ -8,6 +8,7 @@ public class Data_Conversion {
 		int a = 20;
 		int c =10;
 		System.out.println(s+a);
+		
 
 		//string to int
 		int i =Integer.parseInt(s);		
@@ -53,6 +54,6 @@ public class Data_Conversion {
 		String s2 = String.valueOf(b);
 		System.out.println(s2+s1);
 		
-			
+		
 	}
 }

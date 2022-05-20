@@ -20,6 +20,12 @@ public class Arrays_static {
 		
 		System.out.println(values[4]);
 		
+		for (int i : values) {
+			
+			System.out.println("The array values: "+i);
+			
+		}
+		
 		int length = values.length;
 		System.out.println("The length of the array is: "+length);
 		// To print all the array values using for loop

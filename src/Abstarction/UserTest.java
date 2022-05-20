@@ -5,9 +5,10 @@ public class UserTest {
 	public static void main(String[] args) {
 
 		LoginPage lp = new LoginPage(); 
-		// when u create the object by default const executed, 
-		// i've created both page and loginpage const when i execute first parent class const will be executed 
-		//after that child class const will be executed
+		
+		// when u create the object by default const will be executed, 
+		// i've created both page and login page const when i execute first parent class const will be executed 
+		// after that child class const will be executed 
 		
 		lp.header();
 		lp.title();

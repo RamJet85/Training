@@ -4,16 +4,21 @@ public class Reverse_String {
 
 	public static void main(String[] args) {
 		
-		String testString ="Cricket";
-		String reverseString ="";
-		int length = testString.length();
-		System.out.println("The length of the string is:"+length);
 		
-		for(int i=0;i<length;i++) {
-			reverseString+=testString.charAt(testString.length()-i-1); 
+		String str = "Ramakrishna";
+		
+		int length = str.length();
+		
+		System.out.println(length);
+		
+		char array[] = str.toCharArray();
+		
+		for(int i =length-1;i>=0;i--) {
+			System.out.print(array[i]);
 		}
-        System.out.println("The actual string is: " +testString);
-        System.out.println("The reverse string is: " +reverseString);
+		
+		
+		
 	
 	}
 }

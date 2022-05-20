@@ -6,13 +6,16 @@ public class Methods {
 
 	public static void main(String[] args) {
 
-//Method is just a block on code, used to perform actions 
-//the usage of method is to re usability, define the code once, and use it many times.
-//Execution will starts always from main method, two types of methods we have static & non static method
-//object is an entity that has state and behaviors ex car is an object model represents the state and driving represents the behavior 
-		//Methods can return arrays, Inside a main method u cannot create a method
-		//Object is a physical entity which will hold all the properties of a class, ph is a category (class) and ios 10 is an Object
-		//Class is a blue print which is having group of objects like methods constructors variables
+    //Method is just a block of code, used to perform actions 
+    //the usage of method is to re usability, define the code once, and use it many times.
+    //Execution will starts always from main method, two types of methods we have static & non static method
+    //Object is an entity that has state and behaviors ex car is an object model represents 
+	//the state and driving represents the behavior 
+	//Methods can return arrays, Inside a main method u cannot create a method
+	//Object is a physical entity which will hold all the properties of a class, ph is a category (class) and ios 10 is an Object
+	//Class is collection or group of objects like methods constructors variables. or 
+	//A class is a group of objects which have common properties.
+		
 		System.out.println("Main method");
 		Methods obj = new Methods();
 		

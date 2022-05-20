@@ -4,6 +4,7 @@ public class CollegeEn {
 	
 	//Using getter and setter we can access the class variables
 	//without creating the const we can set and get the data
+	
 	public String name;
 	public int rollno;
 	private String grades;

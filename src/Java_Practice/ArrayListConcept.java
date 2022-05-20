@@ -5,15 +5,23 @@ import java.util.ArrayList;
 public class ArrayListConcept {
 
 	public static void main(String[] args) {
+		
 		//Virtual capacity of array list is 10 size
-		//When ever u are created an array list java automatically create 10 equal parts inside the memory virtual capacity
+		//Whenever u are created an array list java automatically create 10 equal parts inside the memory virtual capacity
 		//physical capacity increase then virtual capacity decreased if u enter 2 pc's and now vc is 8 
 		//if u want restrict ur data u can use generics
+		//What are Java Threads? A thread is a: Facility to allow multiple activities within a single process.
+		//Each thread has it's own stack memory and local variables
+		//The usage of thread is better communication between multiple threads
 
 		ArrayList<Object> list = new ArrayList<Object>();
+		
+		
+		
 		list.add("Ram");
 		list.add(100);
 		list.add(100);
+		//Object class is the super class of all the classes in java
 		
 		System.out.println(list.get(2));
 		System.out.println(list.size());
@@ -25,6 +33,7 @@ public class ArrayListConcept {
 		//integer type of data
 		
 		ArrayList<Integer> marks = new ArrayList<Integer>();
+		
 		marks.add(100);
 		marks.add(200);
 		marks.add(300);

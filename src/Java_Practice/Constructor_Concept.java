@@ -13,12 +13,12 @@ public class Constructor_Concept {
 	String companyName;
 	ArrayList<Object> devicelist;
 	
-	// In methods suppose u want to use instance variables u should create object but in constructor
-	//in constructor u can use all class vars or some class variables
+	// In methods suppose u want to use instance variables u should create object but 
+	//in constructor u can use all class variables or some class variables
 	
 	public Constructor_Concept(String name, int empID, String role) {
 		
-		//when ever the local and global variables names are same to avoid the confusion between we should use this keyword
+		//whenever the local and global variables names are same to avoid the confusion between we should use this keyword
 		// this is always refers to the current class, it used to access the instance variables		
 	}
 	
@@ -37,13 +37,13 @@ public class Constructor_Concept {
 		
 		}
 	
-	public Constructor_Concept(String name, int age, int empID, double salary, boolean isPermanent, String role,
+	public Constructor_Concept(String name, int age, int empID, double d, boolean isPermanent, String role,
 			String companyName, ArrayList<Object> devicelist) {
 		
 		this.name = name;
 		this.age = age;
 		this.empID = empID;
-		this.salary = salary;
+		this.salary = d;
 		this.isPermanent = isPermanent;
 		this.role = role;
 		this.companyName = companyName;
@@ -51,6 +51,7 @@ public class Constructor_Concept {
 	}
 
 	public static void main(String[] args) {
+		
 		//Const is a special type of method, it doesn't have any return type (But method may or may not return any value), 
 		//const name must be same as class name
 		//It used to initialize the instance variables, const can be executed when creating the object on the basis of 
@@ -67,6 +68,7 @@ public class Constructor_Concept {
 		System.out.println(c2.age);
 		
 		ArrayList<Object> devlist = new ArrayList<Object>();
+		
 		devlist.add("iPHONE pro 11 max");
 		devlist.add(13.5);
 		devlist.add("Apple");

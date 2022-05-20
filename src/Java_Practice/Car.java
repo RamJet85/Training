@@ -7,8 +7,7 @@ public class Car {
 	int price;
 	static int wheels =4;
 	
-    // In method
-	public static void main(String[] args) {
+    	public static void main(String[] args) {
 		
 		Car c1 = new Car();
 		c1.model = "Hyundai";

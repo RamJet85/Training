@@ -9,10 +9,14 @@ public class Split {
 		System.out.println("The length of the string is: "+length);
 		
 		String splitlen[] = name.split(" ");
-		System.out.println(splitlen.length);
+		
+		int length2 = splitlen.length;
+
+		
+		System.out.println(length2);
 					
-			for(int i=0;i<6;i++) {
-			System.out.println("The spliting is: "+splitlen[i]);
+			for(int i=0;i<length2;i++) {
+			System.out.println(splitlen[i]);
 			
 		}
 	}

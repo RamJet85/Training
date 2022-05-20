@@ -11,26 +11,44 @@ public class HashMap {
 //It is easy to perform operations using the key index like updation, deletion, etc.
 //Hashmap should be in key and value format, it is not index based 
 //we can store null values In hashmap we can have no of null values but we have only one null key if more than 1 it will replace with new key
-		
-	  java.util.HashMap<Integer, String> map = new java.util.HashMap<Integer,String>();
+	//whenever you need key and value pairs	
+	 
+	  java.util.HashMap<Integer, String> maps = new java.util.HashMap<Integer,String>();
 	  
-	  map.put(1, "Ram");
-	  map.put(2, "Charan");
-	  map.put(3, "Testing");
-	  map.put(null, "Krishna");
-	  map.put(null, "india");
-	  map.put(1, "Ra");//duplicate key
+	 //hashmap also not thread safe, not synchronised
 	  
-	  System.out.println(map.get(1));
-	  //Entry set will give u the set pair 
-	 for(Map.Entry<Integer, String> e:map.entrySet()) {
+	  
+	  maps.put(1, "Ram");
+	  maps.put(2, "Charan");
+	  maps.put(3, "Testing");
+	  maps.put(null, "Krishna");
+	  maps.put(null, "india");
+	  maps.put(1, "Ram");//duplicate key
+	  // to get the value use get method
+	  System.out.println(maps.get(1));
+	  System.out.println(maps.get(89)); 
+	  
+	  // if you don't have key u should get null
+	  
+	  //Entry set will give u the each pair 
+	  
+	  for(Map.Entry<Integer, String> e:maps.entrySet()) {
 		  System.out.println(e.getKey()+ " "+e.getValue());
 		 
-	 }
+	  }
 	  
-			
-		
-		
-	}
+	  //To get only keys using keySet
+	  for (Integer s1 : maps.keySet()) {
+		System.out.println("key = "+s1);
+	  }
+	  
+	  //To get only values using 
+	  
+	  for(String s2 : maps.values()){
+		  System.out.println("values "+s2);
+	  }
+	  
+	  
+	 }
 
 }

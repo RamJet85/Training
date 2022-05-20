@@ -10,18 +10,18 @@ public class Icr_dcr {
 		System.out.println(b);//15
 
 	
-	int c =20;
+	int c =20; // pre increment
 	int d = ++c;
 	System.out.println(c);//21
 	System.out.println(d);//21
 
 	
-	int e = -12;
+	int e = -12; //post decrement
 	int f = e--;
 	System.out.println(e);//-13
 	System.out.println(f);//-12
 	
-	int g = -15;
+	int g = -15; // pre decrement
 	int h = --g;
 	System.out.println(g);//-16
 	System.out.println(h);//-16

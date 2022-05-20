@@ -4,8 +4,8 @@ public class Data_Types {
 
 	public static void main(String[] args) {
        
-		// It represents the type of a data it could be int, float, double, boolean, 
-		//It specifies that diff sizes & values that can be stored in the variable
+		//It represents the type of a data it could be int, float, double, boolean, 
+		//It specifies that size & type of variable values 
 		
 		//Byte size 1 byte, 8 bits
 		
@@ -17,12 +17,13 @@ public class Data_Types {
 		
 		short s = 10;
 		short s1 = 32767;
-		System.out.println(s1);
+		System.out.println(s1+s);
 		
 		//int size 4 bytes, 32 bits
 		int a =10;
 		int i = 123;
 		System.out.println(i);
+		System.out.println(i+a);
 		
 		//long size 8 bytes, 64 bits 
 		long l = 5234632765l;
@@ -49,6 +50,14 @@ public class Data_Types {
 		char c ='M';
 		char c1 ='F';
 		System.out.println(c1);
+		
+		int as = 12;
+		double ds = as;
+		System.out.println(ds);
+		
+		double fd = 12.3;
+		int aq = (int) fd;
+		System.out.println(aq);
 			
 	}
 

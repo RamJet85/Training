@@ -9,15 +9,22 @@ public class SplitTest {
 		
 		System.out.println(name.length());
 		
-		String split[] = name.split(";");
+		String[] split = name.split(";");
 		
 		System.out.println(split.length);
 		
+		//for each
 		for (String s : split) { // datatype refvar arrayname
 			
 			System.out.println(s);
 			
 		}
+		//for loop
+		
+		/*for(int i =0;i<split.length;i++){
+			System.out.println(split[i]);
+			
+		}*/
 
 	}
 

@@ -5,7 +5,7 @@ public class Main_Method_Overloading {
 	public static void main(String[] args) {
 		
 		//We can overloading main method also static methods
-		// We cannot override static methods
+		//We cannot override static methods
 		
 		Main_Method_Overloading.main(10);
 		 main("Ram");
